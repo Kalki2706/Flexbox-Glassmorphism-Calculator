@@ -3,3 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url(imgs/daniel-leone-v7daTKlZzaw-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.calculator {
+  width: 265px;
+  height: 400px;
+  backdrop-filter: blur(10px) brightness(150%);
+  border-radius: 5px;
+}
+
+.display-container {
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  width: 220px;
+  height: 60px;
+  background-color: transparent;
+  backdrop-filter: blur(10px) brightness(110%);
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  color: rgb(2, 81, 92);
+  padding-right: 5px;
+}
+
+.screen:focus {
+  outline: 1px solid rgb(1, 30, 92);
+  caret-color: rgb(0, 14, 77);
+}
+
+.cursor-right {
+  text-align: right;
+}
+
+.button {
+  display: flex;
+  margin-top: 12px;
+  gap: 9px;
+  padding: 0 20px;
+}
+
+button {
+  flex: 1;
+  color: #fff;
+  width: 50x;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  backdrop-filter: blur(100px) brightness(108%);
+  font-size: 15px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 4px 0 #383838ad;
+  cursor: pointer;
+}
