@@ -30,15 +30,12 @@ body {
   border: none;
   font-size: 21px;
   padding-right: 2px;
+  text-align: right;
 }
 
 .screen:focus {
   outline: 1px solid rgb(1, 30, 92);
   caret-color: rgb(0, 14, 77);
-}
-
-.cursor-right {
-  text-align: right;
 }
 
 .button {
