@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
 }
 
 body {
@@ -14,30 +15,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 125px;
 }
 
 .flexbox {
-  width: 265px;
+  width: 300px;
   border: 5px solid #000;
-  border-radius: 5px;
-}
-
-.display-container {
-  display: flex;
-  justify-content: center;
 }
 
 .screen {
-  width: 220px;
+  width: 100%;
   height: 60px;
   background-color: #000;
-  margin-top: 20px;
   border: none;
-  border-radius: 5px;
-  font-size: 24px;
-  color: rgb(2, 81, 92);
-  padding-right: 5px;
+  font-size: 21px;
+  padding-right: 2px;
 }
 
 .screen:focus {
