@@ -31,8 +31,7 @@ body {
 .screen {
   width: 220px;
   height: 60px;
-  background-color: transparent;
-  backdrop-filter: blur(10px) brightness(150%);
+  background-color: #000;
   margin-top: 20px;
   border: none;
   border-radius: 5px;
